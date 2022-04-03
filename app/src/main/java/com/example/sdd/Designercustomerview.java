@@ -32,7 +32,8 @@ public class Designercustomerview extends AppCompatActivity {
         profilename = findViewById(R.id.profilename);
         designer = findViewById(R.id.designer);
         if (bundle != null) {
-            email = bundle.getString("email");
+            email = bundle.getString("useremail");
+            System.out.println("email "+email);
             mFirebaseRef.addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
@@ -41,8 +42,8 @@ public class Designercustomerview extends AppCompatActivity {
                             try {
                                 User model = child.getValue(User.class);
                                 if (model.getEmail().equals(email)) {
-                                    designer.setText("phoneNumber " + model.getPhoneNumber());
-                                    profilename.setText(model.getName());
+                                    designer.setText("phoneNumber: " + model.getPhoneNumber());
+                                    profilename.setText("name: "+model.getName());
                                 }
                             } catch (Exception ex) {
                                 Log.e(TAG, ex.getMessage());
