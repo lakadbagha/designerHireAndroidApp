@@ -1,4 +1,36 @@
 <resources>
     <string name="app_name">sdd</string>
     <string name="sms">Style My Space</string>
+    <string name="hi_i_am_sadia_and_this_is_my_portfolio">Hi! I am sadia and this is my portfolio</string>
+    <string name="save">Save</string>
+    <string name="change_photo">Change Profile</string>
+    <string name="email">Email</string>
+    <string name="categories">Categories</string>
+    <string name="phone_no">Phone No</string>
+    <string name="xyz">XYZ</string>
+    <string name="enter_overall_bill">Enter Overall Bill</string>
+    <string name="dd_mm_yy">DD/MM/YY</string>
+    <string name="enter">Enter</string>
+    <string name="style_my_space">Style My Space</string>
+    <string name="sadia_malik">Name</string>
+    <string name="edit_post">Edit Post</string>
+    <string name="delete_post">Delete Post</string>
+    <string name="Mubashra">Mubashra</string>
+    <string name="category">Category</string>
+    <string name="generate_bill">Generate Bill</string>
+    <string name="bill">Bill</string>
+    <string name="designer">Designer</string>
+    <string name="followers">Followers</string>
+    <string name="_20">20</string>
+    <string name="posts">Posts</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="edit_profile_2">Edit Profile</string>
+    <string name="emailaddress">Customer</string>
+    <string name="nimra">Welcome</string>
+    <string name="nav_open">open navigation bar</string>
+    <string name="nav_close">close navigation bar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_item">Message</string>
+    <string name="bt_sent">Sent</string>
 </resources>

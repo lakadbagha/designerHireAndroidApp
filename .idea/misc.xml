@@ -3,15 +3,101 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19583333333333333" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/drawable/corner.xml" value="0.19583333333333333" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19583333333333333" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/drawable/round_button.xml" value="0.19583333333333333" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/drawable/roundbtn.xml" value="0.19583333333333333" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/drawable/whiteedittext.xml" value="0.19583333333333333" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_login.xml" value="0.16893115942028986" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_register.xml" value="0.16077898550724637" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/sdd/app/src/main/res/drawable/edit_text_border.xml" value="0.2385" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/sdd/app/src/main/res/drawable/round_button.xml" value="0.1975" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/sdd/app/src/main/res/layout/fragment_category.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/sdd/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/sdd/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/drawable/corner.xml" value="0.2203125" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/drawable/ic_baseline_emoji_people_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/drawable/ic_baseline_insert_emoticon_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/drawable/round_button.xml" value="0.2203125" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_bill_generate.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_bill_genrate.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_billing.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_billing_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_designer_profile_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_edit_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_hire_designer.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_image_edit_delete.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_profile_public_private.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/menu/bill_generate_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/menu/edit_delete_image.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/menu/edit_delete_image_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/menu/edit_profile_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/menu/editprofilemenu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/menu/navigation_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sadia Abdul Ghafoor/AndroidStudioProjects/sdd/app/src/main/res/menu/profile_public_private_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/drawable/corner.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/drawable/cornerss.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/drawable/ic_baseline_category_24.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/drawable/ic_baseline_insert_emoticon_24.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/drawable/ic_baseline_local_phone_24.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/drawable/ic_baseline_power_settings_new_24.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/drawable/round_button.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/drawable/whiteedittext.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_bill_generate.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_billing.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_billing_detail.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_designer_profile_view.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_designercustomerview.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_developerprofile.xml" value="0.165625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_edit_profile.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_editviewcustomer.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_hire_designer.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_home.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_image_edit_delete.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_login.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_profile_public_private.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_splashscreen.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/activity_viewcustomer.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/fragment_category.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/fragment_profile.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/layout/nav_header.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/menu/edit_delete_image_menu.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/menu/edit_profile_menu.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/menu/menu.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/menu/navigation_menu.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/sdd/app/src/main/res/menu/profile_public_private_menu.xml" value="0.1796875" />
+        <entry key="..\:/android/sdd/app/src/main/res/layout/activity_address.xml" value="0.25" />
+        <entry key="..\:/android/sdd/app/src/main/res/layout/activity_bill_generate.xml" value="0.25" />
+        <entry key="..\:/android/sdd/app/src/main/res/layout/activity_billing.xml" value="0.25" />
+        <entry key="..\:/android/sdd/app/src/main/res/layout/activity_billing_detail.xml" value="0.25" />
+        <entry key="..\:/android/sdd/app/src/main/res/layout/activity_chat.xml" value="0.25" />
+        <entry key="..\:/android/sdd/app/src/main/res/layout/activity_designer_profile_view.xml" value="0.264" />
+        <entry key="..\:/android/sdd/app/src/main/res/layout/activity_designercustomerview.xml" value="0.24954710144927536" />
+        <entry key="..\:/android/sdd/app/src/main/res/layout/activity_developerprofile.xml" value="0.25" />
+        <entry key="..\:/android/sdd/app/src/main/res/layout/activity_edit_profile.xml" value="0.25" />
+        <entry key="..\:/android/sdd/app/src/main/res/layout/activity_editviewcustomer.xml" value="0.25" />
+        <entry key="..\:/android/sdd/app/src/main/res/layout/activity_forget_password.xml" value="0.25" />
+        <entry key="..\:/android/sdd/app/src/main/res/layout/activity_hire_designer.xml" value="0.25" />
+        <entry key="..\:/android/sdd/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/android/sdd/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/android/sdd/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/android/sdd/app/src/main/res/layout/activity_viewcustomer.xml" value="0.25" />
+        <entry key="..\:/android/sdd/app/src/main/res/layout/billing_info.xml" value="0.25" />
+        <entry key="..\:/android/sdd/app/src/main/res/layout/fragment_category.xml" value="0.24954710144927536" />
+        <entry key="..\:/android/sdd/app/src/main/res/layout/hired_me.xml" value="0.24954710144927536" />
+        <entry key="..\:/android/sdd/app/src/main/res/layout/list_item_chat_end.xml" value="0.25" />
+        <entry key="..\:/android/sdd/app/src/main/res/layout/list_item_chat_start.xml" value="0.25" />
+        <entry key="..\:/android/sdd/app/src/main/res/layout/nav_header.xml" value="0.25" />
+        <entry key="..\:/android/sdd/app/src/main/res/menu/menu.xml" value="0.25" />
       </map>
     </option>
   </component>

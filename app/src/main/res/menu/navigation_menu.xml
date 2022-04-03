@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/profile"
+        android:onClick="ankil1"
+        android:icon="@drawable/account"
+        android:title="" />
+
+    <item
+        android:id="@+id/hire_designer"
+        android:icon="@drawable/man"
+        android:onClick="ankil"
+        android:title="" />
+</menu>
