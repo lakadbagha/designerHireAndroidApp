@@ -19,13 +19,6 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.MyViewHolder> 
 
     private List<ChatDTO> mDataSet;
     private String mId;
-
-    /**
-     * Called when a view has been clicked.
-     *
-     * @param dataSet Message list
-     * @param id      Device id
-     */
     public ChatAdapter(List<ChatDTO> dataSet, String id) {
         mDataSet = dataSet;
         mId = id;
@@ -68,7 +61,7 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.MyViewHolder> 
 
         MyViewHolder(View v) {
             super(v);
-            mTextView = (TextView) itemView.findViewById(R.id.tvMessage);
+            mTextView = itemView.findViewById(R.id.tvMessage);
         }
     }
 }
