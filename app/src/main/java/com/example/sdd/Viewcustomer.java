@@ -7,9 +7,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -38,6 +41,8 @@ public class Viewcustomer extends AppCompatActivity {
     private ProgressBar progressBar;
     private LinearLayout showProfile;
     private ImageView back;
+    private Spinner dropdown;
+    private String category = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,18 +54,37 @@ public class Viewcustomer extends AppCompatActivity {
         userID = fUser.getUid();
         name = findViewById(R.id.name);
         email = findViewById(R.id.email);
+        dropdown = findViewById(R.id.spinner1);
         phoneNumber = findViewById(R.id.phone);
         progressBar = findViewById(R.id.progressBar);
         showProfile = findViewById(R.id.showProfile);
         back = findViewById(R.id.back);
-        if(UserDao.getInstance().getUser()!=null){
+        String[] items = new String[]{"bedrooms", "kitchen", "hotel", "restaurants", "offices", "drawingrooms", "lounge", "appartments", "wardrobe", "others"};
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, items);
+        dropdown.setAdapter(adapter);
+        dropdown.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                category = parent.getItemAtPosition(position).toString().trim();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+        if (UserDao.getInstance().getUser() != null) {
             profile_name.setText(UserDao.getInstance().getUser().getName());
             name.setText(UserDao.getInstance().getUser().getName());
             email.setText(UserDao.getInstance().getUser().getEmail());
             phoneNumber.setText(UserDao.getInstance().getUser().getPhoneNumber());
             progressBar.setVisibility(View.GONE);
             showProfile.setVisibility(View.VISIBLE);
-        }else {
+            if (UserDao.getInstance().getUser().getCategory() != null) {
+                int spinnerPosition = adapter.getPosition(UserDao.getInstance().getUser().getCategory());
+                dropdown.setSelection(spinnerPosition);
+            }
+        } else {
             reference.child(userID).addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -109,6 +133,7 @@ public class Viewcustomer extends AppCompatActivity {
         map.put("name", nam);
         map.put("email", mail);
         map.put("phoneNumber", phoneNo);
+        map.put("category", category);
         userDao.update(userID, map).addOnCompleteListener(task -> {
             if (task.isSuccessful()) {
                 Toast.makeText(Viewcustomer.this, "Account updated successfully", Toast.LENGTH_LONG).show();

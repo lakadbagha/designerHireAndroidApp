@@ -63,14 +63,6 @@ public class Register extends AppCompatActivity {
         String[] items = new String[]{"bedrooms", "kitchen", "hotel", "restaurants", "offices", "drawingrooms", "lounge", "appartments", "wardrobe", "others"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, items);
         dropdown.setAdapter(adapter);
-        radioGroup.setOnCheckedChangeListener((group, checkedId) -> {
-            RadioButton radio = findViewById(checkedId);
-            if (radio.getText().toString().trim().equals("Designer")) {
-                dropdown.setVisibility(View.VISIBLE);
-            } else {
-                dropdown.setVisibility(View.GONE);
-            }
-        });
         dropdown.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
