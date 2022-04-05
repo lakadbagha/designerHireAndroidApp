@@ -20,7 +20,7 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
-        Button viewprofile = (Button) view.findViewById(R.id.view_hire);
+        Button viewprofile = view.findViewById(R.id.view_hire);
         viewprofile.setOnClickListener(v -> designerActivity());
         Button view_hire2 = view.findViewById(R.id.view_hire2);
         view_hire2.setOnClickListener(v -> designerActivity());
